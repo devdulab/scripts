@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 128" width="470" height="128">
+  <title>DevDu</title>
+  <g fill="none" stroke="#0E9A92" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" transform="translate(-8 0)">
+    <path d="M38 48 V30 H64 A34 34 0 0 1 64 98 H38 V76"/>
+    <path d="M38 61 L54 77 L84 47"/>
+  </g>
+  <text x="128" y="92" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="78" letter-spacing="-1.5" fill="#0D2B57">DevDu</text>
+</svg>
