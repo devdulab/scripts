@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<p align="center">Scripts para automatizar rotinas de execução orçamentária e financeira no SEI, SIAFI, SCDP, Contratos.gov.br e outros sistemas do governo federal.</p>
+<p align="center">Scripts para automatizar rotinas de execução orçamentária e financeira no SEI, SIAFI, SCDP, Contratos.gov.br e outros sistemas do governo federal. São ferramentas de trabalho para simplificar a vida dos executores. Algumas necessitam de configuração epara funcionar no seu ambiente. Caso necessite de alguma customização, entre em contato. :))</p>
 
 ---
 
