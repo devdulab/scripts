@@ -14,5 +14,13 @@
 - 1.0.0 — primeira versão DevDu (antes "SIAFI – Concessão de Suprimento de Fundos", até a 0.5.1): painel padrão com
   abas na lateral, marca e atualização automática. Emissão e reforço de SF no SIAFI e despacho de devolução no SEI.
 
+## Instrumento de Cobrança (Planilha)
+- 1.0.0 — primeira versão DevDu (antes "Contratos.gov.br – Instrumento de Cobrança em lote", até a 0.10): painel
+  padrão com abas na lateral, marca e atualização automática.
+
+## Instrumento de Cobrança (Gercont)
+- 1.0.0 — primeira versão DevDu (antes "Gercont → Contratos.gov.br – Instrumento de Cobrança", até a 2.2): painel
+  padrão com abas na lateral no Contratos e no Gercont, marca e atualização automática.
+
 ## lib/devdu-ui.js
 - 1.0.0 — painel lateral padrão com abas na lateral, log, avisos e marca DevDu; opção `css` para o CSS de cada script.
