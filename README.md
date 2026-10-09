@@ -29,16 +29,16 @@ Ao abrir o sistema, o script aparece como uma lingueta verde com o ícone DevDu 
 
 ## Scripts
 
-| Script | O que faz | Sistema | Instalar |
-|---|---|---|---|
-| Boletim Interno | Captura o relatório de afastamentos do SCDP e gera o Boletim de Concessão de Diárias no SEI, com CPF mascarado | SCDP → SEI | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/boletim-interno.user.js) |
-| Cadastro de Diárias | Lê as Solicitações de Diárias no SEI, consulta as PCDPs no SCDP e altera a prestação de contas ou cadastra a viagem, com o ofício anexado; exporta o Relatório > Viagem para Excel | SEI → SCDP | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/cadastro-diarias.user.js) |
-| Consulta Viagens SCDP | Lê os viajantes das Solicitações de Diárias no SEI e confere no SCDP se cada um tem PCDP, com diárias, passagens e total; a tabela vai para o Excel | SEI → SCDP | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/consulta-viagens-scdp.user.js) |
-| Empenho Suprimento | Lê os pedidos no SEI, emite, reforça ou anula os empenhos de suprimento de fundos no Contratos.gov.br e devolve o despacho com as NEs | SEI → Contratos.gov.br | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/empenho-suprimento.user.js) |
-| Concessão Suprimento | Lê as solicitações de concessão no SEI, emite ou reforça os SF no SIAFI e gera o despacho de devolução | SEI → SIAFI | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/concessao-suprimento.user.js) |
-| Reinf Envio em Lote | Envia em lote, a partir de planilhas, os eventos R-4010 (diárias), R-4020 (pagamentos a PJ) e R-2010 (retenção previdenciária) da EFD-Reinf, assinando pelo Assinador SERPRO, e confere o que já está no Reinf. Pega o CNPJ do perfil na página inicial do e-CAC (abra o e-CAC antes do Reinf) ou aceita o CNPJ digitado | Reinf Web (e-CAC) | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/reinf-envio-lote.user.js) |
-| Instrumento de Cobrança (Planilha) | Cadastra os instrumentos de cobrança (notas fiscais) de uma planilha no Contratos.gov.br, sem cliques | Contratos.gov.br | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-planilha.user.js) |
-| Instrumento de Cobrança (Gercont) | Marca as notas no Gercont e cadastra os instrumentos de cobrança no Contratos.gov.br (também aceita planilha). Use este **ou** o da planilha | Gercont → Contratos.gov.br | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-gercont.user.js) |
+| Script | O que faz | Sistema | Versão | Instalar |
+|---|---|---|---|---|
+| Boletim Interno | Captura o relatório de afastamentos do SCDP e gera o Boletim de Concessão de Diárias no SEI, com CPF mascarado | SCDP → SEI | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/boletim-interno.user.js) |
+| Cadastro de Diárias | Lê as Solicitações de Diárias no SEI, consulta as PCDPs no SCDP e altera a prestação de contas ou cadastra a viagem, com o ofício anexado; exporta o Relatório > Viagem para Excel | SEI → SCDP | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/cadastro-diarias.user.js) |
+| Consulta Viagens SCDP | Lê os viajantes das Solicitações de Diárias no SEI e confere no SCDP se cada um tem PCDP, com diárias, passagens e total; a tabela vai para o Excel | SEI → SCDP | 1.0.3 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/consulta-viagens-scdp.user.js) |
+| Empenho Suprimento | Lê os pedidos no SEI, emite, reforça ou anula os empenhos de suprimento de fundos no Contratos.gov.br e devolve o despacho com as NEs | SEI → Contratos.gov.br | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/empenho-suprimento.user.js) |
+| Concessão Suprimento | Lê as solicitações de concessão no SEI, emite ou reforça os SF no SIAFI e gera o despacho de devolução | SEI → SIAFI | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/concessao-suprimento.user.js) |
+| Reinf Envio em Lote | Envia em lote, a partir de planilhas, os eventos R-4010 (diárias), R-4020 (pagamentos a PJ) e R-2010 (retenção previdenciária) da EFD-Reinf, assinando pelo Assinador SERPRO, e confere o que já está no Reinf. Pega o CNPJ do perfil na página inicial do e-CAC (abra o e-CAC antes do Reinf) ou aceita o CNPJ digitado | Reinf Web (e-CAC) | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/reinf-envio-lote.user.js) |
+| Instrumento de Cobrança (Planilha) | Cadastra os instrumentos de cobrança (notas fiscais) de uma planilha no Contratos.gov.br, sem cliques | Contratos.gov.br | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-planilha.user.js) |
+| Instrumento de Cobrança (Gercont) | Marca as notas no Gercont e cadastra os instrumentos de cobrança no Contratos.gov.br (também aceita planilha). Use este **ou** o da planilha | Gercont → Contratos.gov.br | 1.0.0 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-gercont.user.js) |
 
 ## Dúvidas e problemas
 
