@@ -10,6 +10,10 @@
   lateral no SEI e no SCDP, aviso de andamento ao lado da lingueta, marca e atualização automática.
 
 ## Consulta Viagens SCDP
+- 1.0.3 — órgãos fora do primeiro nível da árvore do SCDP (caminho com ">" na tabela de equivalência).
+- 1.0.2 — período não vai mais para a coluna da unidade; reconhece "1º a 3 OUT 26".
+- 1.0.1 — leitura dos documentos do SEI corrigida (não repete mais o primeiro viajante nos documentos seguintes nem
+  dá "Nenhum viajante encontrado" por ler o quadro errado).
 - 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Solicitações de diárias", até a 0.10.1): painel padrão com abas na
   lateral no SEI e no SCDP, marca e atualização automática.
 
