@@ -14,6 +14,11 @@
 - 1.0.0 — primeira versão DevDu (antes "SIAFI – Concessão de Suprimento de Fundos", até a 0.5.1): painel padrão com
   abas na lateral, marca e atualização automática. Emissão e reforço de SF no SIAFI e despacho de devolução no SEI.
 
+## Reinf Envio em Lote
+- 1.0.0 — primeira versão DevDu (antes "Reinf Web — Envio em lote", até a 2.8.1): painel padrão com abas na lateral,
+  marca e atualização automática. O CNPJ do contribuinte passa a ser capturado na página inicial do e-CAC (perfil em
+  uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
+
 ## Instrumento de Cobrança (Planilha)
 - 1.0.0 — primeira versão DevDu (antes "Contratos.gov.br – Instrumento de Cobrança em lote", até a 0.10): painel
   padrão com abas na lateral, marca e atualização automática.
