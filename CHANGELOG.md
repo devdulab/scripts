@@ -5,6 +5,14 @@
   Captura o relatório "Afastamentos a Serviço" no SCDP e gera o Boletim de Concessão de Diárias no SEI
   (documento público, CPF mascarado, conferência do documento salvo).
 
+## Cadastro de Diárias
+- 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Cadastro de diárias", até a 0.21.2): painel padrão com abas na
+  lateral no SEI e no SCDP, aviso de andamento ao lado da lingueta, marca e atualização automática.
+
+## Consulta Viagens SCDP
+- 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Solicitações de diárias", até a 0.10.1): painel padrão com abas na
+  lateral no SEI e no SCDP, marca e atualização automática.
+
 ## Empenho Suprimento
 - 1.0.0 — primeira versão DevDu (antes "Empenhos de Suprimento de Fundos", até a 1.7.0): painel padrão com abas
   na lateral, marca e atualização automática. Emissão, reforço e anulação de empenhos no Contratos.gov.br, despacho
