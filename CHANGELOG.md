@@ -54,6 +54,8 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.3.4 — "↻ Atualizar saldos": consulta de novo os saldos a liquidar dos empenhos (botão para todos os contratos marcados
+  e link em cada grupo, com a hora da última consulta).
 - 1.3.3 — botão "Limpar escolhas" no painel: desmarca as notas de todas as páginas e desfaz grupos, parâmetros
   editados e trocas de empenho (o histórico dos contratos e as notas apropriadas não mudam).
 - 1.3.2 — primeira publicação: instalação pelo link e atualização automática. Lingueta violeta (LG).
