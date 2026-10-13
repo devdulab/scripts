@@ -54,6 +54,8 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.3.3 — botão "Limpar escolhas" no painel: desmarca as notas de todas as páginas e desfaz grupos, parâmetros
+  editados e trocas de empenho (o histórico dos contratos e as notas apropriadas não mudam).
 - 1.3.2 — primeira publicação: instalação pelo link e atualização automática. Lingueta violeta (LG).
   Notas de contratos diferentes, uma NP por grupo de notas do mesmo contrato, sugestões pelo histórico de cada
   contrato, troca de empenho e 2ª situação; no SEI, documento com a NP e o valor em cada processo. Sem tributos e sem
