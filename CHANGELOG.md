@@ -39,6 +39,9 @@
   uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
 
 ## Instrumento de Cobrança (Planilha)
+- 1.1.0 — aceita também a planilha de entrada extraída do outro sistema: converte para o formato arquivosecom
+  (uma linha por nota e empenho, tema e valor do processo) e oferece "Baixar no formato arquivosecom", para usar
+  também na Liquidação Contratos SECOM. Contrato que o Excel transformou em data volta a ser mês/ano.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (violeta, IP), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Contratos.gov.br – Instrumento de Cobrança em lote", até a 0.10): painel
   padrão com abas na lateral, marca e atualização automática.
@@ -49,11 +52,17 @@
   padrão com abas na lateral no Contratos e no Gercont, marca e atualização automática.
 
 ## Liquidação Contratos SECOM
+- 1.1.5 — a caixinha do script na lista de instrumentos de cobrança mostra a sigla LS na cor do script (antes "DevDu"
+  em verde, igual à da Liquidação Geral), para não confundir com a caixinha do outro script.
 - 1.1.4 — primeira publicação: instalação pelo link e atualização automática. Lingueta violeta (LS).
   Apropria no Contratos.gov.br as notas marcadas na lista de instrumentos de cobrança, conferindo com a planilha xlsx
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.3.8 — alerta quando o processo SEI do grupo é de ano anterior ao corrente (provavelmente o processo da
+  contratação): aviso no painel, abaixo do campo do processo, e na confirmação do lote. Não impede a apropriação.
+- 1.3.7 — a caixinha do script na lista de instrumentos de cobrança mostra a sigla LG na cor do script (antes "DevDu"
+  em verde, igual à da Liquidação Contratos SECOM), para não confundir com a caixinha do outro script.
 - 1.3.6 — documento "DIROF - Documento de Pagamento": o script passa a reconhecer a tabela do próprio tipo (sem
   cabeçalho) e preenche a linha "VALOR BRUTO:" com o valor e a NP, o nome da empresa e o processo no topo; demais linhas
   como estão. Opcional: documento modelo (nº SEI) na Config. do SEI; "↻ gerar de novo" para documento com erro ou a
