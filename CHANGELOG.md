@@ -54,6 +54,9 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.3.5 — documento no SEI sem texto padrão: o documento nasce com o modelo do próprio tipo (que já traz a tabela NP ×
+  valor) e o script preenche a tabela. Texto padrão na Config. passa a ser opcional. Tipo de documento padrão:
+  "DIROF - Documento de Pagamento".
 - 1.3.4 — "↻ Atualizar saldos": consulta de novo os saldos a liquidar dos empenhos (botão para todos os contratos marcados
   e link em cada grupo, com a hora da última consulta).
 - 1.3.3 — botão "Limpar escolhas" no painel: desmarca as notas de todas as páginas e desfaz grupos, parâmetros
