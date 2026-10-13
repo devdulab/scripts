@@ -22,7 +22,7 @@
 4. Na tela do Tampermonkey que abrir, clique em **Instalar**.
 
 Pronto. As atualizações chegam sozinhas (o Tampermonkey verifica uma vez por dia).
-Ao abrir o sistema, o script aparece como uma lingueta verde com o ícone DevDu no canto direito da tela.
+Ao abrir o sistema, o script aparece como uma lingueta no canto direito da tela, com o ícone DevDu, a cor da área e a sigla do script.
 
 > O link **Instalar** funciona no computador com o Tampermonkey. Sem ele (no celular, por exemplo), aparece só o
 > texto do script.
@@ -39,6 +39,8 @@ Ao abrir o sistema, o script aparece como uma lingueta verde com o ícone DevDu 
 | Reinf Envio em Lote | Envia em lote, a partir de planilhas, os eventos R-4010 (diárias), R-4020 (pagamentos a PJ) e R-2010 (retenção previdenciária) da EFD-Reinf, assinando pelo Assinador SERPRO, e confere o que já está no Reinf. Pega o CNPJ do perfil na página inicial do e-CAC (abra o e-CAC antes do Reinf) ou aceita o CNPJ digitado | Reinf Web (e-CAC) | 1.0.1 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/reinf-envio-lote.user.js) |
 | Instrumento de Cobrança (Planilha) | Cadastra os instrumentos de cobrança (notas fiscais) de uma planilha no Contratos.gov.br, sem cliques | Contratos.gov.br | 1.0.1 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-planilha.user.js) |
 | Instrumento de Cobrança (Gercont) | Marca as notas no Gercont e cadastra os instrumentos de cobrança no Contratos.gov.br (também aceita planilha). Use este **ou** o da planilha | Gercont → Contratos.gov.br | 1.0.1 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-gercont.user.js) |
+| Liquidação Contratos SECOM | Apropria (liquida) no Contratos.gov.br as notas marcadas na lista de instrumentos de cobrança, conferindo com a planilha xlsx da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento (ficam no SIAFI) | Contratos.gov.br → SEI | 1.1.4 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/liquidacao-contratos-secom.user.js) |
+| Liquidação Geral | Apropria no Contratos.gov.br notas de contratos diferentes, uma NP por contrato, com situação, contas e centro de custo sugeridos pelo histórico de cada contrato, e inclui no SEI o documento com a NP e o valor em cada processo. Sem tributos e sem dados de pagamento (ficam no SIAFI) | Contratos.gov.br → SEI | 1.3.2 | [Instalar](https://raw.githubusercontent.com/devdulab/scripts/main/scripts/liquidacao-geral.user.js) |
 
 ## Dúvidas e problemas
 

@@ -47,6 +47,17 @@
 - 1.0.0 — primeira versão DevDu (antes "Gercont → Contratos.gov.br – Instrumento de Cobrança", até a 2.2): painel
   padrão com abas na lateral no Contratos e no Gercont, marca e atualização automática.
 
+## Liquidação Contratos SECOM
+- 1.1.4 — primeira publicação: instalação pelo link e atualização automática. Lingueta violeta (LS).
+  Apropria no Contratos.gov.br as notas marcadas na lista de instrumentos de cobrança, conferindo com a planilha xlsx
+  da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
+
+## Liquidação Geral
+- 1.3.2 — primeira publicação: instalação pelo link e atualização automática. Lingueta violeta (LG).
+  Notas de contratos diferentes, uma NP por grupo de notas do mesmo contrato, sugestões pelo histórico de cada
+  contrato, troca de empenho e 2ª situação; no SEI, documento com a NP e o valor em cada processo. Sem tributos e sem
+  dados de pagamento.
+
 ## lib/devdu-ui.js
 - 1.1.0 — identidade por script: cor da família da área (suprimento: verde-azulado; diárias e viagens: azul;
   contratos e liquidação: violeta; tributos: âmbar) e sigla de 2 letras na lingueta; a cor vale também para a aba
