@@ -54,6 +54,10 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.3.6 — documento "DIROF - Documento de Pagamento": o script passa a reconhecer a tabela do próprio tipo (sem
+  cabeçalho) e preenche a linha "VALOR BRUTO:" com o valor e a NP, o nome da empresa e o processo no topo; demais linhas
+  como estão. Opcional: documento modelo (nº SEI) na Config. do SEI; "↻ gerar de novo" para documento com erro ou a
+  conferir.
 - 1.3.5 — documento no SEI sem texto padrão: o documento nasce com o modelo do próprio tipo (que já traz a tabela NP ×
   valor) e o script preenche a tabela. Texto padrão na Config. passa a ser opcional. Tipo de documento padrão:
   "DIROF - Documento de Pagamento".
