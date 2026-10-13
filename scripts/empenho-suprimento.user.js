@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         DevDu - Empenho Suprimento
 // @namespace    https://github.com/devdulab
-// @version      1.0.0
+// @version      1.0.1
 // @description  Lê despachos no SEI, emite/reforça/anula empenhos de suprimento de fundos no Contratos.gov.br e devolve despacho com o resultado
 // @author       DevDu
 // @icon         https://raw.githubusercontent.com/devdulab/scripts/main/assets/devdu-icon-64.png
 // @match        https://protocolo.presidencia.gov.br/*
-// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.0.0
+// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.1.0
 // @grant        GM_xmlhttpRequest
 // @grant        GM_getValue
 // @grant        GM_setValue

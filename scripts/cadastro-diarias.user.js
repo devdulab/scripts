@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DevDu - Cadastro de Diárias
 // @namespace    https://github.com/devdulab
-// @version      1.0.0
+// @version      1.0.1
 // @description  Extrai os viajantes das Solicitações de Diárias no SEI, verifica as PCDPs no SCDP, classifica o que cadastrar, alterar ou tratar à mão e faz a alteração na prestação de contas ou o cadastro
 // @author       DevDu
 // @icon         https://raw.githubusercontent.com/devdulab/scripts/main/assets/devdu-icon-64.png
@@ -19,7 +19,7 @@
 // @grant        unsafeWindow
 // @require      https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js
 // @require      https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js
-// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.0.0
+// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.1.0
 // @updateURL    https://raw.githubusercontent.com/devdulab/scripts/main/scripts/cadastro-diarias.user.js
 // @downloadURL  https://raw.githubusercontent.com/devdulab/scripts/main/scripts/cadastro-diarias.user.js
 // ==/UserScript==

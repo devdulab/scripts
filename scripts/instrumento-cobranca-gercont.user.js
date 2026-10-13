@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         DevDu - Instrumento de Cobrança (Gercont)
 // @namespace    https://github.com/devdulab
-// @version      1.0.0
+// @version      1.0.1
 // @description  Marca notas no Gercont e cadastra os instrumentos de cobrança no Contratos.gov.br (também aceita planilha)
 // @author       DevDu
 // @icon         https://raw.githubusercontent.com/devdulab/scripts/main/assets/devdu-icon-64.png
 // @match        https://contratos.sistema.gov.br/*
 // @match        https://gercont.presidencia.gov.br/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js
-// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.0.0
+// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.1.0
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_addValueChangeListener

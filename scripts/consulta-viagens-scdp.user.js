@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         DevDu - Consulta Viagens SCDP
 // @namespace    https://github.com/devdulab
-// @version      1.0.3
+// @version      1.0.4
 // @description  Extrai os viajantes das Solicitações de Diárias no SEI e verifica no SCDP se há PCDP cadastrada para cada um.
 // @author       DevDu
 // @icon         https://raw.githubusercontent.com/devdulab/scripts/main/assets/devdu-icon-64.png
@@ -15,7 +15,7 @@
 // @grant        GM_registerMenuCommand
 // @grant        GM_addValueChangeListener
 // @grant        unsafeWindow
-// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.0.0
+// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.1.0
 // @updateURL    https://raw.githubusercontent.com/devdulab/scripts/main/scripts/consulta-viagens-scdp.user.js
 // @downloadURL  https://raw.githubusercontent.com/devdulab/scripts/main/scripts/consulta-viagens-scdp.user.js
 // ==/UserScript==

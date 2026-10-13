@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         DevDu - Instrumento de Cobrança (Planilha)
 // @namespace    https://github.com/devdulab
-// @version      1.0.0
+// @version      1.0.1
 // @description  Cadastra instrumentos de cobrança no Contratos.gov.br a partir de planilha Excel, via POST direto (sem cliques)
 // @author       DevDu
 // @icon         https://raw.githubusercontent.com/devdulab/scripts/main/assets/devdu-icon-64.png
 // @match        https://contratos.sistema.gov.br/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js
-// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.0.0
+// @require      https://raw.githubusercontent.com/devdulab/scripts/main/lib/devdu-ui.js?v=1.1.0
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-planilha.user.js
 // @downloadURL  https://raw.githubusercontent.com/devdulab/scripts/main/scripts/instrumento-cobranca-planilha.user.js

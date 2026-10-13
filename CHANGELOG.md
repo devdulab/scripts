@@ -1,15 +1,18 @@
 # Histórico de versões
 
 ## Boletim Interno
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (azul, BI), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu: painel padrão com abas na lateral, marca e atualização automática.
   Captura o relatório "Afastamentos a Serviço" no SCDP e gera o Boletim de Concessão de Diárias no SEI
   (documento público, CPF mascarado, conferência do documento salvo).
 
 ## Cadastro de Diárias
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (azul, CD), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Cadastro de diárias", até a 0.21.2): painel padrão com abas na
   lateral no SEI e no SCDP, aviso de andamento ao lado da lingueta, marca e atualização automática.
 
 ## Consulta Viagens SCDP
+- 1.0.4 — lingueta e destaques do painel com a cor da área e a sigla do script (azul, CV), para identificar cada script na lateral.
 - 1.0.3 — órgãos fora do primeiro nível da árvore do SCDP (caminho com ">" na tabela de equivalência).
 - 1.0.2 — período não vai mais para a coluna da unidade; reconhece "1º a 3 OUT 26".
 - 1.0.1 — leitura dos documentos do SEI corrigida (não repete mais o primeiro viajante nos documentos seguintes nem
@@ -18,26 +21,34 @@
   lateral no SEI e no SCDP, marca e atualização automática.
 
 ## Empenho Suprimento
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (verde-azulado, ES), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Empenhos de Suprimento de Fundos", até a 1.7.0): painel padrão com abas
   na lateral, marca e atualização automática. Emissão, reforço e anulação de empenhos no Contratos.gov.br, despacho
   de retorno e bloco de assinatura.
 
 ## Concessão Suprimento
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (verde-azulado escuro, CS), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "SIAFI – Concessão de Suprimento de Fundos", até a 0.5.1): painel padrão com
   abas na lateral, marca e atualização automática. Emissão e reforço de SF no SIAFI e despacho de devolução no SEI.
 
 ## Reinf Envio em Lote
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (âmbar, RE), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Reinf Web — Envio em lote", até a 2.8.1): painel padrão com abas na lateral,
   marca e atualização automática. O CNPJ do contribuinte passa a ser capturado na página inicial do e-CAC (perfil em
   uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
 
 ## Instrumento de Cobrança (Planilha)
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (violeta, IP), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Contratos.gov.br – Instrumento de Cobrança em lote", até a 0.10): painel
   padrão com abas na lateral, marca e atualização automática.
 
 ## Instrumento de Cobrança (Gercont)
+- 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (violeta, IG), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Gercont → Contratos.gov.br – Instrumento de Cobrança", até a 2.2): painel
   padrão com abas na lateral no Contratos e no Gercont, marca e atualização automática.
 
 ## lib/devdu-ui.js
+- 1.1.0 — identidade por script: cor da família da área (suprimento: verde-azulado; diárias e viagens: azul;
+  contratos e liquidação: violeta; tributos: âmbar) e sigla de 2 letras na lingueta; a cor vale também para a aba
+  selecionada, o ponto do título e os botões. Script sem identidade continua verde DevDu.
 - 1.0.0 — painel lateral padrão com abas na lateral, log, avisos e marca DevDu; opção `css` para o CSS de cada script.
