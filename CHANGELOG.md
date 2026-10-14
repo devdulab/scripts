@@ -59,6 +59,9 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.4.0 — saldo a liquidar por subitem do empenho (Execução financeira → Empenhos → detalhado): no painel, abaixo de
+  cada empenho; na apropriação, o subitem de cada item (o indicado pelo gestor na nota, ou o do empenho trocado) é
+  conferido com o saldo do subitem antes de gravar — insuficiente ou empenho sem o subitem → erro, não envia.
 - 1.3.8 — alerta quando o processo SEI do grupo é de ano anterior ao corrente (provavelmente o processo da
   contratação): aviso no painel, abaixo do campo do processo, e na confirmação do lote. Não impede a apropriação.
 - 1.3.7 — a caixinha do script na lista de instrumentos de cobrança mostra a sigla LG na cor do script (antes "DevDu"
