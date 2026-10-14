@@ -21,6 +21,8 @@
   lateral no SEI e no SCDP, marca e atualização automática.
 
 ## Empenho Suprimento
+- 1.1.0 — na emissão, o crédito (célula orçamentária) respeita o plano interno do pedido: pedido sem PI usa só célula sem PI;
+  com PI (tabela "PLANO INTERNO | ..." ou texto "Plano Interno: ..."), só a célula daquele PI. PI editável no painel.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (verde-azulado, ES), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Empenhos de Suprimento de Fundos", até a 1.7.0): painel padrão com abas
   na lateral, marca e atualização automática. Emissão, reforço e anulação de empenhos no Contratos.gov.br, despacho
