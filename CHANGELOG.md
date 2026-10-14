@@ -79,6 +79,13 @@
   contrato, troca de empenho e 2ª situação; no SEI, documento com a NP e o valor em cada processo. Sem tributos e sem
   dados de pagamento.
 
+## Prazo pelo Termo de Recebimento
+- 1.0.0 — primeira versão DevDu (antes "Prazo pelo Termo de Recebimento - SEI/PR", até a 1.7): painel padrão,
+  instalação pelo link e atualização automática. Lingueta violeta (PT). Coluna **Prazo** na lista do Controle de
+  Processos (opção "Mostrar o prazo", dispensa a SEI Pro): data do marcador e há quantos dias, até 15 dias verde,
+  16 a 30 amarelo, mais de 30 vermelho; clique no título para ordenar. Prazo pela data de assinatura do Termo de
+  Recebimento, com empresa e valor (linha TOTAL) no marcador; CSV e relatório da página.
+
 ## lib/devdu-ui.js
 - 1.1.0 — identidade por script: cor da família da área (suprimento: verde-azulado; diárias e viagens: azul;
   contratos e liquidação: violeta; tributos: âmbar) e sigla de 2 letras na lingueta; a cor vale também para a aba
