@@ -29,6 +29,7 @@
   de retorno e bloco de assinatura.
 
 ## Concessão Suprimento
+- 1.1.0 — reforço: cada concessão tem a escolha Concessão/Reforço (o script sugere) e, no reforço, os campos do nº do SF e da UG do SF, para digitar quando o despacho de devolução não for encontrado; o reforço não pede mais o período.
 - 1.0.2 — quando o empenho foi emitido em favor da UG, o credor dos Dados Básicos do SF passa a ser a UG (antes ia o CPF).
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (verde-azulado escuro, CS), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "SIAFI – Concessão de Suprimento de Fundos", até a 0.5.1): painel padrão com
