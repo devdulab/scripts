@@ -7,6 +7,8 @@
   (documento público, CPF mascarado, conferência do documento salvo).
 
 ## Cadastro de Diárias
+- 1.1.0 — botão "Editar período" na janela do SEI: altera as datas de ida e volta de um viajante (ou corrige um
+  período não reconhecido) antes de consultar e enviar ao SCDP.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (azul, CD), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Cadastro de diárias", até a 0.21.2): painel padrão com abas na
   lateral no SEI e no SCDP, aviso de andamento ao lado da lingueta, marca e atualização automática.
