@@ -20,6 +20,13 @@
 - 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Solicitações de diárias", até a 0.10.1): painel padrão com abas na
   lateral no SEI e no SCDP, marca e atualização automática.
 
+## Faturamento SCDP
+- 1.1.1 — primeira versão publicada. Lingueta azul (FS). Para uma lista de órgãos (árvore do topo do SCDP) e UGRs num
+  período, abre o Relatório de Conferência da Fatura, escolhe a primeira Unidade Responsável com o código da UGR e
+  pesquisa cada empenho com cada agência de viagem (todas, ou as escolhidas em Config.). No fim baixa o Excel: aba
+  Faturamento (um bilhete por linha, com órgão solicitante, PCDP, proposto e valores) e aba Resumo (cada pesquisa,
+  com os totais da fatura e a conferência da soma).
+
 ## Empenho Suprimento
 - 1.1.0 — na emissão, o crédito (célula orçamentária) respeita o plano interno do pedido: pedido sem PI usa só célula sem PI;
   com PI (tabela "PLANO INTERNO | ..." ou texto "Plano Interno: ..."), só a célula daquele PI. PI editável no painel.
