@@ -72,6 +72,19 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.5.4 — centro de custo como na tela: depois de mexer no PCO (troca, mais um empenho, 2ª situação), ou se os centros
+  de custo gerados não fecham com o PCO, o script exclui os gerados e inclui um só pelo "+", já com todos os empenhos.
+- 1.5.3 — o "mais um empenho" registra cada passo e o alerta do fim do lote mostra a mensagem de cada erro; o saldo
+  por subitem trava só quando confere com o saldo do empenho (diz o valor máximo no subitem), senão só avisa.
+- 1.5.1 — mais um empenho por grupo: além de trocar o empenho indicado pelo gestor, dá para incluir mais uma nota de
+  empenho da lista do contrato (com o saldo) e informar quanto vai em cada empenho; o script confere se a soma dos
+  empenhos é igual ao total das notas (com glosa, total − glosa), cria o item no PCO como o botão "+" da tela, com as
+  mesmas contas, e confere o saldo do empenho novo e do subitem antes.
+  2ª situação por subitem: num empenho com mais de um subitem indicado, escolhe-se o subitem que vai para a 2ª situação;
+  com o valor vazio, o item inteiro (empenho + subitem) sai da 1ª situação e vai para a 2ª.
+  Glosa: a aba PCO passa a ficar com o total das notas menos a glosa (tirada do empenho da glosa).
+  Saldo por subitem: a coluna do saldo é conferida com o saldo do empenho (restos a pagar mostravam zero e travavam a
+  apropriação); quando não bate, o script só avisa.
 - 1.4.0 — saldo a liquidar por subitem do empenho (Execução financeira → Empenhos → detalhado): no painel, abaixo de
   cada empenho; na apropriação, o subitem de cada item (o indicado pelo gestor na nota, ou o do empenho trocado) é
   conferido com o saldo do subitem antes de gravar — insuficiente ou empenho sem o subitem → erro, não envia.
