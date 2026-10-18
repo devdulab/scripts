@@ -7,6 +7,9 @@
   (documento público, CPF mascarado, conferência do documento salvo).
 
 ## Cadastro de Diárias
+- 1.2.0 — aba Auxílio na janela do SEI: lista de servidores com auxílio-alimentação diferenciado (colada do Excel, com
+  nome e órgão) e espaço para o valor mensal de cada um. Quem está na lista sem valor fica em Revisar; com o valor, ele
+  entra no desconto da alteração e no cadastro do zero.
 - 1.1.0 — botão "Editar período" na janela do SEI: altera as datas de ida e volta de um viajante (ou corrige um
   período não reconhecido) antes de consultar e enviar ao SCDP.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (azul, CD), para identificar cada script na lateral.
