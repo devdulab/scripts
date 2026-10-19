@@ -26,6 +26,8 @@
   lateral no SEI e no SCDP, marca e atualização automática.
 
 ## Faturamento SCDP
+- 1.1.2 — o botão Parar interrompe a coleta (antes a etapa em andamento desfazia a parada e a coleta seguia);
+  Continuar retoma de onde parou.
 - 1.1.1 — primeira versão publicada. Lingueta azul (FS). Para uma lista de órgãos (árvore do topo do SCDP) e UGRs num
   período, abre o Relatório de Conferência da Fatura, escolhe a primeira Unidade Responsável com o código da UGR e
   pesquisa cada empenho com cada agência de viagem (todas, ou as escolhidas em Config.). No fim baixa o Excel: aba
