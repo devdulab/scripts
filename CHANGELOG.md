@@ -77,6 +77,8 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.6.3 — Gercont: cada nota é pesquisada pelo número (a lista do Gercont vem em páginas de 10; as notas fora da
+  1ª página ficavam sem a data).
 - 1.6.2 — Gercont: quem decide se a nota precisa da data é o próprio Gercont (o script não pula mais a nota por
   registro próprio); data apagada no Gercont é lançada de novo.
 - 1.6.1 — "mais um empenho" com campo para a conta VPD (A) do empenho novo (o passivo é o do grupo); caixinha em cada
