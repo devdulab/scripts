@@ -79,6 +79,9 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.7.0 — opção "não utilizar" na caixa de cada empenho indicado nas notas: o empenho não vai para o Contratos
+  (sai da aba PCO) e a janela pede o valor de cada empenho que fica (é esse valor que vai para o PCO); funciona junto com
+  "mais um empenho". Aviso do Gercont mais claro quando a pesquisa da nota não acha o link "Enviar para pagamento".
 - 1.6.3 — Gercont: cada nota é pesquisada pelo número (a lista do Gercont vem em páginas de 10; as notas fora da
   1ª página ficavam sem a data).
 - 1.6.2 — Gercont: quem decide se a nota precisa da data é o próprio Gercont (o script não pula mais a nota por
