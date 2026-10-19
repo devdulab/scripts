@@ -79,6 +79,8 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.8.0 — saldo por subitem do empenho pela mesma consulta da tela de cadastro do instrumento de cobrança (saldo
+  atualizado; só consulta, não cadastra nada), na janela e na conferência antes de apropriar.
 - 1.7.0 — opção "não utilizar" na caixa de cada empenho indicado nas notas: o empenho não vai para o Contratos
   (sai da aba PCO) e a janela pede o valor de cada empenho que fica (é esse valor que vai para o PCO); funciona junto com
   "mais um empenho". Aviso do Gercont mais claro quando a pesquisa da nota não acha o link "Enviar para pagamento".
