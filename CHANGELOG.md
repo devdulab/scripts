@@ -75,6 +75,14 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.6.2 — Gercont: quem decide se a nota precisa da data é o próprio Gercont (o script não pula mais a nota por
+  registro próprio); data apagada no Gercont é lançada de novo.
+- 1.6.1 — "mais um empenho" com campo para a conta VPD (A) do empenho novo (o passivo é o do grupo); caixinha em cada
+  grupo e botão "✕ Tirar do lote os grupos marcados" (os outros grupos ficam como estão); painel reorganizado: marcar ou
+  desmarcar todas as notas da página da lista do Contratos e "Limpar tudo" juntos, numa linha própria.
+- 1.6.0 — data de envio para pagamento no Gercont: antes de apropriar (ou só pelo botão "📅 Data no Gercont", sem
+  apropriar), o script lança a data de hoje em cada nota fiscal das notas marcadas no Gercont. Precisa estar logada no
+  Gercont no navegador; dá para desligar a etapa automática na Config.
 - 1.5.4 — centro de custo como na tela: depois de mexer no PCO (troca, mais um empenho, 2ª situação), ou se os centros
   de custo gerados não fecham com o PCO, o script exclui os gerados e inclui um só pelo "+", já com todos os empenhos.
 - 1.5.3 — o "mais um empenho" registra cada passo e o alerta do fim do lote mostra a mensagem de cada erro; o saldo
