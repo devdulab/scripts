@@ -35,6 +35,8 @@
   com os totais da fatura e a conferência da soma).
 
 ## Empenho Suprimento
+- 1.2.0 — emissão que já tem nota de empenho registrada pode ser emitida de novo (ex.: NE cancelada direto no
+  Contratos): caixa "emitir de novo" na linha, com alerta da NE já registrada antes de executar; gera um despacho novo.
 - 1.1.0 — na emissão, o crédito (célula orçamentária) respeita o plano interno do pedido: pedido sem PI usa só célula sem PI;
   com PI (tabela "PLANO INTERNO | ..." ou texto "Plano Interno: ..."), só a célula daquele PI. PI editável no painel.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (verde-azulado, ES), para identificar cada script na lateral.
