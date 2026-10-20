@@ -25,6 +25,13 @@
 - 1.0.0 — primeira versão DevDu (antes "SEI → SCDP | Solicitações de diárias", até a 0.10.1): painel padrão com abas na
   lateral no SEI e no SCDP, marca e atualização automática.
 
+## Comparador de Faturas
+- 2.0.0 — primeira versão DevDu (antes "Comparador de Faturas × SCDP", até a 1.7.0, aberto pelo menu do Tampermonkey): abre no
+  SCDP pelo painel padrão (lingueta azul CF) e atualiza sozinho. Agrupamento por empenho só com nota de empenho, SIORG, centro
+  de custo e valor; inclusão de uma nota de empenho ou de uma exceção de centro de custo por vez, na Config.; nomes comparados
+  com variações de grafia (Sousa/Souza, Thiago/Tiago, Mattos/Matos). Para levar a configuração da versão antiga: Exportar
+  configuração na antiga e Importar na nova.
+
 ## Faturamento SCDP
 - 1.1.2 — o botão Parar interrompe a coleta (antes a etapa em andamento desfazia a parada e a coleta seguia);
   Continuar retoma de onde parou.
