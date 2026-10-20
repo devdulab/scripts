@@ -80,6 +80,9 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 1.8.1 — centro de custo refeito depois de mexer nos empenhos: cada item recebe o valor do item da aba PCO, e o
+  centro de custo só é gravado se a soma fechar com a aba PCO (num uso real, o PCO tinha R$ 770 mil e o centro de custo
+  foi com R$ 10 mil).
 - 1.8.0 — saldo por subitem do empenho pela mesma consulta da tela de cadastro do instrumento de cobrança (saldo
   atualizado; só consulta, não cadastra nada), na janela e na conferência antes de apropriar.
 - 1.7.0 — opção "não utilizar" na caixa de cada empenho indicado nas notas: o empenho não vai para o Contratos
