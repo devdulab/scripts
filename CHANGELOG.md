@@ -54,6 +54,7 @@
   de retorno e bloco de assinatura.
 
 ## Concessão Suprimento
+- 1.3.0 — cada concessão tem a caixinha "enviar" (com marcar/desmarcar todas): a desmarcada fica fora da fila; "Limpar" no SEI limpa também a fila do SIAFI; no painel do SIAFI, ✕ para tirar um SF da fila e botão "Limpar fila".
 - 1.2.1 — despacho de devolução: o mês de referência ("do mês de …/aaaa") passa a ser o mês do fim do período de aplicação (antes, o do início).
 - 1.2.0 — solicitação com várias linhas da mesma natureza (ex.: 339039 hotéis + restaurantes): os valores são somados; período de aplicação escrito por extenso ("de 26 de setembro a 25 de outubro de 2026") é reconhecido; crédito e saque de cada natureza podem ser corrigidos no cartão, e crédito + saque diferente do total da solicitação é apontado como erro.
 - 1.1.0 — reforço: cada concessão tem a escolha Concessão/Reforço (o script sugere) e, no reforço, os campos do nº do SF e da UG do SF, para digitar quando o despacho de devolução não for encontrado; o reforço não pede mais o período.
