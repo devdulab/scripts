@@ -42,6 +42,8 @@
   com os totais da fatura e a conferência da soma).
 
 ## Empenho Suprimento
+- 1.2.1 — corrige "Documento … não está na árvore do processo": o documento é achado pelo número SEI mesmo dentro
+  de pasta da árvore ou com nome fora do padrão.
 - 1.2.0 — emissão que já tem nota de empenho registrada pode ser emitida de novo (ex.: NE cancelada direto no
   Contratos): caixa "emitir de novo" na linha, com alerta da NE já registrada antes de executar; gera um despacho novo.
 - 1.1.0 — na emissão, o crédito (célula orçamentária) respeita o plano interno do pedido: pedido sem PI usa só célula sem PI;
