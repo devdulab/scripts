@@ -144,6 +144,8 @@
   dados de pagamento.
 
 ## Prazo pelo Termo de Recebimento
+- 1.0.1 — lê a data dos termos assinados com Certificado Digital (ICP-Brasil), que antes ficavam como "termo sem
+  assinatura".
 - 1.0.0 — primeira versão DevDu (antes "Prazo pelo Termo de Recebimento - SEI/PR", até a 1.7): painel padrão,
   instalação pelo link e atualização automática. Lingueta violeta (PT). Coluna **Prazo** na lista do Controle de
   Processos (opção "Mostrar o prazo", dispensa a SEI Pro): data do marcador e há quantos dias, até 15 dias verde,
