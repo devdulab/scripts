@@ -89,6 +89,12 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 2.0.0 — aba PCO montada pela tabela da janela: uma linha por empenho e subitem, com situação (sugerida pela natureza do
+  empenho), VPD e valor editáveis; troca de empenho, inclusão de subitem ou de empenho e 🗑 para tirar uma linha; no máximo
+  2 situações por NP; conta de contrato e do fornecedor da NP. Na Config., a tabela natureza/subitem → situação e VPD
+  (aprende com o uso) e as situações que não vão para o centro de custo (padrão DSP101 e DSP201; só elas → aba vazia).
+  Observação: variável {CNPJ} (do fornecedor) no modelo; a observação vai também no documento de pagamento do SEI, logo
+  acima da tabela (dá para desligar na Config. do SEI).
 - 1.8.1 — centro de custo refeito depois de mexer nos empenhos: cada item recebe o valor do item da aba PCO, e o
   centro de custo só é gravado se a soma fechar com a aba PCO (num uso real, o PCO tinha R$ 770 mil e o centro de custo
   foi com R$ 10 mil).
