@@ -41,6 +41,13 @@
   Faturamento (um bilhete por linha, com órgão solicitante, PCDP, proposto e valores) e aba Resumo (cada pesquisa,
   com os totais da fatura e a conferência da soma).
 
+## Prestação de Contas SCDP
+- 2.1.3 — primeira versão publicada. Lingueta azul (PC). Para uma lista de órgãos, lê a lista da Prestação de Contas,
+  abre cada PCDP e, se o "Solicitado por" for de alguém da lista (aceita Souza/Sousa, nome cortado pelo SCDP e um erro
+  de digitação), preenche a data prevista de publicação (31/12 do ano) e a justificativa de prestação fora do prazo
+  ("FINALIZADA NESTA DATA", na aba Complemento) e encaminha. Opção "Eu clico em Encaminhar" para conferir cada uma;
+  a lista do painel acompanha a PCDP em andamento.
+
 ## Empenho Suprimento
 - 1.2.1 — corrige "Documento … não está na árvore do processo": o documento é achado pelo número SEI mesmo dentro
   de pasta da árvore ou com nome fora do padrão.
