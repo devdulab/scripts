@@ -70,6 +70,12 @@
 - 1.0.0 — primeira versão DevDu (antes "SIAFI – Concessão de Suprimento de Fundos", até a 0.5.1): painel padrão com
   abas na lateral, marca e atualização automática. Emissão e reforço de SF no SIAFI e despacho de devolução no SEI.
 
+## Prestação de Contas Suprimento
+- 1.0.0 — primeira versão publicada (antes de uso interno, até a 0.7.3). Lê no SEI o relatório "Despesas do Servidor
+  por Item" (PDF) e o despacho de devolução; no SIAFI (CONDH), lança no SF o detalhamento (SPE003/SPN003), a anulação do
+  saldo (ASP003, com o relacionamento com a PCO) e o Detacustos; no Contratos, confere o saldo e anula o saldo das NEs;
+  no SEI, gera o despacho final da prestação de contas e o inclui no bloco de assinatura.
+
 ## Reinf Envio em Lote
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (âmbar, RE), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Reinf Web — Envio em lote", até a 2.8.1): painel padrão com abas na lateral,
