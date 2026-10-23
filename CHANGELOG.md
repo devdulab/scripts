@@ -48,6 +48,15 @@
   ("FINALIZADA NESTA DATA", na aba Complemento) e encaminha. Opção "Eu clico em Encaminhar" para conferir cada uma;
   a lista do painel acompanha a PCDP em andamento.
 
+## Conferência GEROP
+- 1.2.0 — primeira versão publicada. Na GEROP do SIAFI, consulta as OPs pendentes de assinatura (NP) da UG logada e
+  coleta os dados de cada NP (dados básicos, PCO, despesa a anular, deduções e pagamento); conferência por OP
+  (Conferido, Manual, Com pendência), processos editáveis e alertas (soma dos documentos de origem, processos, favorecido,
+  total do PCO, Simples × retenção IN 1234, bem patrimonial DSP201/DSP216). Na Consulta Optantes da Receita, consulta em
+  lote o Simples Nacional dos credores (o captcha é resolvido por você; vale 30 dias, em janeiro e fevereiro só no dia).
+  No SEI, gera o Termo de Conformidade de cada processo com as OPs conferidas: UG, documentos de pagamento (DIROF) que
+  citam a NP, extrato do SIAFI e apontamentos, no bloco de assinatura e com o nome da Config. de cada operador.
+
 ## Conferência de Hospedagem
 - 1.1.0 — Config. → "Exportar a conferência" salva tudo (processos, faturas, tabelas dos extratos, documentos e
   situações) num arquivo .json, e "Importar conferência" carrega o arquivo de volta para ajustar depois, sem digitar de novo.
