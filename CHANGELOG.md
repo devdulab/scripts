@@ -49,6 +49,8 @@
   a lista do painel acompanha a PCDP em andamento.
 
 ## Conferência de Hospedagem
+- 1.1.0 — Config. → "Exportar a conferência" salva tudo (processos, faturas, tabelas dos extratos, documentos e
+  situações) num arquivo .json, e "Importar conferência" carrega o arquivo de volta para ajustar depois, sem digitar de novo.
 - 1.0.0 — primeira versão publicada. Faturas de hotel com nº, hotel e valor; leitura inicial da tabela do extrato em PDF no
   SEI (texto ou OCR do digitalizado) e editor da tabela em tela grande, com o extrato ao lado, para completar e corrigir
   (hóspedes, apto, entrada, saída, SGL/DBL, diárias, diária, ISS e total, com a conta de cada linha); conferência dos
