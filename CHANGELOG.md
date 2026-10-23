@@ -48,6 +48,13 @@
   ("FINALIZADA NESTA DATA", na aba Complemento) e encaminha. Opção "Eu clico em Encaminhar" para conferir cada uma;
   a lista do painel acompanha a PCDP em andamento.
 
+## Conferência de Hospedagem
+- 1.0.0 — primeira versão publicada. Faturas de hotel com nº, hotel e valor; leitura inicial da tabela do extrato em PDF no
+  SEI (texto ou OCR do digitalizado) e editor da tabela em tela grande, com o extrato ao lado, para completar e corrigir
+  (hóspedes, apto, entrada, saída, SGL/DBL, diárias, diária, ISS e total, com a conta de cada linha); conferência dos
+  hóspedes em ordem alfabética com o nº SEI e o processo do documento aberto num clique; situação de cada um (Conferido,
+  Divergente, Não encontrado, Outro); listas com e sem nomes, com todos os processos, para colar no SEI.
+
 ## Empenho Suprimento
 - 1.2.1 — corrige "Documento … não está na árvore do processo": o documento é achado pelo número SEI mesmo dentro
   de pasta da árvore ou com nome fora do padrão.
