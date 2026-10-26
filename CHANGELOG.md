@@ -1,6 +1,8 @@
 # Histórico de versões
 
 ## Boletim Interno
+- 1.1.0 — o boletim volta a ser gravado no SEI depois da mudança do editor do SEI (SEI 5), que dava "Endereço de
+  salvamento do editor não encontrado"; o editor antigo continua funcionando.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (azul, BI), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu: painel padrão com abas na lateral, marca e atualização automática.
   Captura o relatório "Afastamentos a Serviço" no SCDP e gera o Boletim de Concessão de Diárias no SEI
@@ -93,6 +95,8 @@
   Divergente, Não encontrado, Outro); listas com e sem nomes, com todos os processos, para colar no SEI.
 
 ## Empenho Suprimento
+- 1.3.0 — o despacho de retorno volta a ser gravado no SEI depois da mudança do editor do SEI (SEI 5), que dava
+  "Endereço de salvamento do editor não encontrado"; o editor antigo continua funcionando.
 - 1.2.1 — corrige "Documento … não está na árvore do processo": o documento é achado pelo número SEI mesmo dentro
   de pasta da árvore ou com nome fora do padrão.
 - 1.2.0 — emissão que já tem nota de empenho registrada pode ser emitida de novo (ex.: NE cancelada direto no
@@ -105,6 +109,8 @@
   de retorno e bloco de assinatura.
 
 ## Concessão Suprimento
+- 1.4.0 — o despacho de devolução volta a ser gravado no SEI depois da mudança do editor do SEI (SEI 5), que dava
+  "Endereço de salvamento do editor não encontrado"; o editor antigo continua funcionando.
 - 1.3.0 — cada concessão tem a caixinha "enviar" (com marcar/desmarcar todas): a desmarcada fica fora da fila; "Limpar" no SEI limpa também a fila do SIAFI; no painel do SIAFI, ✕ para tirar um SF da fila e botão "Limpar fila".
 - 1.2.1 — despacho de devolução: o mês de referência ("do mês de …/aaaa") passa a ser o mês do fim do período de aplicação (antes, o do início).
 - 1.2.0 — solicitação com várias linhas da mesma natureza (ex.: 339039 hotéis + restaurantes): os valores são somados; período de aplicação escrito por extenso ("de 26 de setembro a 25 de outubro de 2026") é reconhecido; crédito e saque de cada natureza podem ser corrigidos no cartão, e crédito + saque diferente do total da solicitação é apontado como erro.
@@ -115,6 +121,8 @@
   abas na lateral, marca e atualização automática. Emissão e reforço de SF no SIAFI e despacho de devolução no SEI.
 
 ## Prestação de Contas Suprimento
+- 1.1.0 — o despacho final volta a ser gravado no SEI depois da mudança do editor do SEI (SEI 5), que dava
+  "Endereço de salvamento do editor não encontrado"; o editor antigo continua funcionando.
 - 1.0.0 — primeira versão publicada (antes de uso interno, até a 0.7.3). Lê no SEI o relatório "Despesas do Servidor
   por Item" (PDF) e o despacho de devolução; no SIAFI (CONDH), lança no SF o detalhamento (SPE003/SPN003), a anulação do
   saldo (ASP003, com o relacionamento com a PCO) e o Detacustos; no Contratos, confere o saldo e anula o saldo das NEs;
@@ -140,6 +148,11 @@
   padrão com abas na lateral no Contratos e no Gercont, marca e atualização automática.
 
 ## Liquidação Contratos SECOM
+- 1.2.0 — documento de pagamento no SEI: volta a ser gravado depois da mudança do editor do SEI (SEI 5), que dava
+  "Endereço de salvamento do editor não encontrado" (o editor antigo continua funcionando); quando o SEI recusa a criação, o painel mostra o motivo dado pelo SEI; sem
+  texto padrão nem documento modelo, o documento é gerado com o modelo do próprio tipo ("DIROF - Documento de
+  Pagamento", que já traz a tabela) e preenchido com valor, NP e empresa; falha de conexão com o SEI não cria
+  documento em dobro (fica "conferir no processo", com "↻ gerar de novo").
 - 1.1.5 — a caixinha do script na lista de instrumentos de cobrança mostra a sigla LS na cor do script (antes "DevDu"
   em verde, igual à da Liquidação Geral), para não confundir com a caixinha do outro script.
 - 1.1.4 — primeira publicação: instalação pelo link e atualização automática. Lingueta violeta (LS).
@@ -147,6 +160,8 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 2.1.0 — o documento com a NP volta a ser gravado no SEI depois da mudança do editor do SEI (SEI 5), que dava
+  "Endereço de salvamento do editor não encontrado"; o editor antigo continua funcionando.
 - 2.0.0 — aba PCO montada pela tabela da janela: uma linha por empenho e subitem, com situação (sugerida pela natureza do
   empenho), VPD e valor editáveis; troca de empenho, inclusão de subitem ou de empenho e 🗑 para tirar uma linha; no máximo
   2 situações por NP; conta de contrato e do fornecedor da NP. Na Config., a tabela natureza/subitem → situação e VPD
