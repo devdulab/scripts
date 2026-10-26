@@ -76,6 +76,13 @@
   No SEI, gera o Termo de Conformidade de cada processo com as OPs conferidas: UG, documentos de pagamento (DIROF) que
   citam a NP, extrato do SIAFI e apontamentos, no bloco de assinatura e com o nome da Config. de cada operador.
 
+## NPs Pendentes
+- 1.0.0 — primeira versão publicada: no CONDH do SIAFI, lê as NPs pendentes de realização da UG (o ano atual e os 5
+  anteriores) e gera o relatório das que têm pagamento pendente (favorecido não pago por inteiro ou sem favorecido), em
+  HTML com ordenação por qualquer coluna e em CSV, com processo, credor, datas de lançamento e de ateste e valor. Nas
+  rodadas seguintes só relê os dados de pagamento das NPs alteradas (pelo rodapé "Alterado por … Data") e volta à lista
+  pelo botão Retornar do SIAFI, sem pesquisar de novo.
+
 ## Conferência de Hospedagem
 - 1.1.0 — Config. → "Exportar a conferência" salva tudo (processos, faturas, tabelas dos extratos, documentos e
   situações) num arquivo .json, e "Importar conferência" carrega o arquivo de volta para ajustar depois, sem digitar de novo.
