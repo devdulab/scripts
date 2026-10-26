@@ -49,6 +49,25 @@
   a lista do painel acompanha a PCDP em andamento.
 
 ## Conferência GEROP
+- 1.4.0 — extração compartilhada: quem coleta a GEROP e consulta o Simples exporta um arquivo .json, com o responsável de
+  cada OP (equipe cadastrada na Config.), e os colegas importam e conferem só as OPs deles, sem precisar entrar na GEROP
+  nem consultar a Receita; as marcações de cada um ficam com cada um.
+- 1.3.4 — Termo de Conformidade: o conteúdo do termo é lido de onde o editor novo do SEI o guarda.
+- 1.3.3 — Termo de Conformidade gravado pelo editor novo do SEI (SEI 5), que salva de outro jeito; o termo que ficou
+  criado sem preencher é preenchido no mesmo documento.
+- 1.3.2 — sem o alerta "optante do Simples com retenção" quando o credor está na lista de exceções da Config. e o DARF é
+  recolhido por outro CNPJ; Termo de Conformidade: o endereço de salvar do editor do SEI é procurado em mais formatos, e
+  se não for achado a aba Termos SEI permite baixar a página do editor para análise.
+- 1.3.1 — a aba Simples lista também os recolhedores das deduções; termo que ficou criado sem preencher no SEI é
+  preenchido no mesmo documento (o editor passa a ser aberto também pelo termo na árvore); somas corretas na tela da
+  GEROP (documentos de origem e total do PCO).
+- 1.3.0 — tique em cada nota fiscal e em cada dedução (o Conferido só libera com todos marcados); conferência das deduções
+  (DDF050: código 1162 e 11% ou 3,5% da base; DDF055: códigos e percentuais da tabela da Config.; recolhedor igual ao
+  credor, salvo os CNPJs liberados na Config.; DDR001 em vermelho), com o valor esperado no detalhe; recolhedores
+  também consultados no Simples; no SEI, reabre o processo concluído na unidade antes do termo e conclui o processo
+  depois de incluir o termo no bloco; Recoletar tudo apaga a memória da UG e coleta de novo.
+- 1.2.1 — correção: ao recarregar a página com o painel aberto (no SEI, por exemplo), a aba de OPs dava erro e a
+  lista vinha vazia.
 - 1.2.0 — primeira versão publicada. Na GEROP do SIAFI, consulta as OPs pendentes de assinatura (NP) da UG logada e
   coleta os dados de cada NP (dados básicos, PCO, despesa a anular, deduções e pagamento); conferência por OP
   (Conferido, Manual, Com pendência), processos editáveis e alertas (soma dos documentos de origem, processos, favorecido,
