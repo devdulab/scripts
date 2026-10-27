@@ -135,6 +135,9 @@
   uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
 
 ## Instrumento de Cobrança (Planilha)
+- 1.1.1 — não fica mais parado quando o Contratos não responde: cada consulta espera até 60 s e a gravação até
+  3 min; depois disso a nota fica com erro e o log diz em que etapa parou (na gravação, pede para conferir na lista
+  do contrato antes de mandar de novo).
 - 1.1.0 — aceita também a planilha de entrada extraída do outro sistema: converte para o formato arquivosecom
   (uma linha por nota e empenho, tema e valor do processo) e oferece "Baixar no formato arquivosecom", para usar
   também na Liquidação Contratos SECOM. Contrato que o Excel transformou em data volta a ser mês/ano.
@@ -143,6 +146,10 @@
   padrão com abas na lateral, marca e atualização automática.
 
 ## Instrumento de Cobrança (Gercont)
+- 1.0.2 — o envio ficava parado antes da primeira nota: a conferência de nota já lançada buscava o número em todos os
+  instrumentos do sistema e passava do limite de 100 s do Contratos. Agora lê a lista do próprio contrato uma vez por
+  envio. E não fica mais parado quando o Contratos não responde: consulta espera até 60 s, gravação até 3 min, e o log
+  diz em que etapa parou.
 - 1.0.1 — lingueta e destaques do painel com a cor da área e a sigla do script (violeta, IG), para identificar cada script na lateral.
 - 1.0.0 — primeira versão DevDu (antes "Gercont → Contratos.gov.br – Instrumento de Cobrança", até a 2.2): painel
   padrão com abas na lateral no Contratos e no Gercont, marca e atualização automática.
