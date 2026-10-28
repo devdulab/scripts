@@ -90,6 +90,14 @@
   rodadas seguintes só relê os dados de pagamento das NPs alteradas (pelo rodapé "Alterado por … Data") e volta à lista
   pelo botão Retornar do SIAFI, sem pesquisar de novo.
 
+## Apropria Folha de Pagamento
+- 1.0.0 — primeira versão publicada. Lingueta vinho (FP). Lê os 5 relatórios DDP do mês (níveis A, E e Todos; EST16 e
+  EST35) e a consulta de saldos de empenho, calcula a PCO e a Despesa a Anular pela tabela de correlações (editável na
+  Config.), com divisão pelo saldo a liquidar das NEs e compensação da Despesa a Anular; confere os totais com o relatório
+  Todos e lança o documento FL no SIAFI (Dados Básicos com documento de origem, registros de até 40 linhas de PCO e
+  depois de 25 de Despesa a Anular, cada um com o centro de custo). Modo teste: preenche o 1º registro e para antes de
+  registrar.
+
 ## Conferência de Hospedagem
 - 1.1.0 — Config. → "Exportar a conferência" salva tudo (processos, faturas, tabelas dos extratos, documentos e
   situações) num arquivo .json, e "Importar conferência" carrega o arquivo de volta para ajustar depois, sem digitar de novo.
