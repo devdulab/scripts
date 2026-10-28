@@ -51,6 +51,11 @@
   a lista do painel acompanha a PCDP em andamento.
 
 ## Conferência GEROP
+- 1.5.0 — OPs em Conferência manual ou Com pendência ficam na lista mesmo depois de sair da GEROP (com a etiqueta
+  "Fora da GEROP" e filtro próprio) até serem marcadas Conferido ou desmarcadas; Despesa a Anular lida pelos campos
+  reais (valor incluído, cancelado e atual, e os itens do PCO relacionados); dados bancários do pré-doc de cada
+  favorecido (tipo de OB, banco, agência e conta) no detalhe e no extrato do termo. As OPs já coletadas são lidas de
+  novo uma vez, na próxima consulta, sem perder as marcações.
 - 1.4.0 — extração compartilhada: quem coleta a GEROP e consulta o Simples exporta um arquivo .json, com o responsável de
   cada OP (equipe cadastrada na Config.), e os colegas importam e conferem só as OPs deles, sem precisar entrar na GEROP
   nem consultar a Receita; as marcações de cada um ficam com cada um.
