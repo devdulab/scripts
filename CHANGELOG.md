@@ -148,6 +148,8 @@
   uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
 
 ## Instrumento de Cobrança (Planilha)
+- 1.2.1 — nota que o Contratos recusa por número repetido ("O campo Número já está sendo utilizado") conta como
+  já existente, e não como erro, no log e no resumo do fim do envio.
 - 1.2.0 — notas de vários contratos num envio só: na tela de Contratos do contratos.comprasnet.gov.br, o botão
   "Capturar contratos da UG" guarda o número e o id de cada contrato; no cadastro, "Todos os contratos" lança cada nota
   no contrato do seu número, sem abrir o contrato e sem a coluna contrato_id na planilha.
@@ -162,6 +164,8 @@
   padrão com abas na lateral, marca e atualização automática.
 
 ## Instrumento de Cobrança (Gercont)
+- 1.1.1 — nota que o Contratos recusa por número repetido ("O campo Número já está sendo utilizado") fica como
+  "Já existe", e não como erro.
 - 1.1.0 — notas de vários contratos num envio só: na tela de Contratos do contratos.comprasnet.gov.br, o botão
   "Capturar contratos da UG" guarda o número e o id de cada contrato; no cadastro, "Todos os contratos" lança cada nota
   no contrato do seu número, sem abrir o contrato.
