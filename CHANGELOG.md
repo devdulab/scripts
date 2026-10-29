@@ -148,6 +148,9 @@
   uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
 
 ## Instrumento de Cobrança (Planilha)
+- 1.2.2 — empenho de cada nota buscado pelo número, como a tela do Contratos faz, em vez de ler a lista inteira de
+  empenhos do contrato (que dava "HTTP 403" nos contratos com muitos empenhos); se o Contratos bloquear o acesso (403),
+  o envio para e pede para recarregar a página.
 - 1.2.1 — nota que o Contratos recusa por número repetido ("O campo Número já está sendo utilizado") conta como
   já existente, e não como erro, no log e no resumo do fim do envio.
 - 1.2.0 — notas de vários contratos num envio só: na tela de Contratos do contratos.comprasnet.gov.br, o botão
@@ -164,6 +167,10 @@
   padrão com abas na lateral, marca e atualização automática.
 
 ## Instrumento de Cobrança (Gercont)
+- 1.1.2 — no envio real, lança direto (sem ler antes os instrumentos já lançados: o Contratos recusa número repetido);
+  a conferência fica só na simulação. Empenho de cada nota buscado pelo número, como a tela do Contratos faz, em vez
+  de ler a lista inteira de empenhos do contrato (que dava "HTTP 403"); se o Contratos bloquear o acesso (403), o envio
+  para e pede para recarregar a página.
 - 1.1.1 — nota que o Contratos recusa por número repetido ("O campo Número já está sendo utilizado") fica como
   "Já existe", e não como erro.
 - 1.1.0 — notas de vários contratos num envio só: na tela de Contratos do contratos.comprasnet.gov.br, o botão
