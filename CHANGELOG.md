@@ -148,6 +148,9 @@
   uso) ou informado no painel, e planilhas com estabelecimento de outro CNPJ ficam bloqueadas com alerta.
 
 ## Instrumento de Cobrança (Planilha)
+- 1.2.0 — notas de vários contratos num envio só: na tela de Contratos do contratos.comprasnet.gov.br, o botão
+  "Capturar contratos da UG" guarda o número e o id de cada contrato; no cadastro, "Todos os contratos" lança cada nota
+  no contrato do seu número, sem abrir o contrato e sem a coluna contrato_id na planilha.
 - 1.1.1 — não fica mais parado quando o Contratos não responde: cada consulta espera até 60 s e a gravação até
   3 min; depois disso a nota fica com erro e o log diz em que etapa parou (na gravação, pede para conferir na lista
   do contrato antes de mandar de novo).
@@ -159,6 +162,9 @@
   padrão com abas na lateral, marca e atualização automática.
 
 ## Instrumento de Cobrança (Gercont)
+- 1.1.0 — notas de vários contratos num envio só: na tela de Contratos do contratos.comprasnet.gov.br, o botão
+  "Capturar contratos da UG" guarda o número e o id de cada contrato; no cadastro, "Todos os contratos" lança cada nota
+  no contrato do seu número, sem abrir o contrato.
 - 1.0.2 — o envio ficava parado antes da primeira nota: a conferência de nota já lançada buscava o número em todos os
   instrumentos do sistema e passava do limite de 100 s do Contratos. Agora lê a lista do próprio contrato uma vez por
   envio. E não fica mais parado quando o Contratos não responde: consulta espera até 60 s, gravação até 3 min, e o log
