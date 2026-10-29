@@ -358,6 +358,7 @@ para pagamento no Gercont e inclui no SEI o documento com a NP. Sem tributos e s
 
 **Cuidados:**
 - Processo de ano anterior ao corrente gera alerta amarelo: costuma ser o processo da contratação, posto por engano.
+- Despesa sem contrato: deixe a **Conta de contrato (D)** em branco; a aba PCO vai com "Tem contrato" = NÃO.
 - **↻ Atualizar saldos** relê o saldo dos empenhos e dos subitens.
 - Grupo que não dá para liquidar agora: marque a caixinha do grupo e use **✕ Tirar do lote os grupos marcados**.
 - Dedução, dados de pagamento e detalhamento de centro de custo continuam no SIAFI.

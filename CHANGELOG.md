@@ -197,6 +197,9 @@
   da liquidação, e gera no SEI o documento de pagamento com a NP. Sem tributos e sem dados de pagamento.
 
 ## Liquidação Geral
+- 2.2.0 — centro de custo com mais de um empenho: o script clica no "+" uma vez por linha da aba PCO (cada "+" traz
+  uma linha) e confere o total; antes, só a 1ª linha entrava e a apropriação parava. Conta de contrato (D) em branco =
+  despesa sem contrato: a aba PCO vai com "Tem contrato" = NÃO.
 - 2.1.0 — o documento com a NP volta a ser gravado no SEI depois da mudança do editor do SEI (SEI 5), que dava
   "Endereço de salvamento do editor não encontrado"; o editor antigo continua funcionando.
 - 2.0.0 — aba PCO montada pela tabela da janela: uma linha por empenho e subitem, com situação (sugerida pela natureza do
