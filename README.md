@@ -24,6 +24,8 @@
 Pronto. As atualizações chegam sozinhas (o Tampermonkey verifica uma vez por dia).
 Ao abrir o sistema, o script aparece como uma lingueta no canto direito da tela, com o ícone DevDu, a cor da área e a sigla do script.
 
+Como usar cada script (que página deixar aberta, passo a passo e cuidados): veja o [Manual](MANUAL.md).
+
 > O link **Instalar** funciona no computador com o Tampermonkey. Sem ele (no celular, por exemplo), aparece só o
 > texto do script.
 
