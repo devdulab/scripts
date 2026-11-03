@@ -51,6 +51,10 @@
   a lista do painel acompanha a PCDP em andamento.
 
 ## Conferência GEROP
+- 1.5.1 — correção na consulta do Simples: o resultado só é gravado se o CNPJ da página da Receita for o consultado
+  (antes, um resultado que ficava na tela podia ser gravado no CNPJ seguinte da fila); se for outro, consulta de novo.
+  Quando a última consulta falha, os dados antigos aparecem esmaecidos, com "consulta anterior", e o painel avisa se
+  a Consulta Optantes estiver aberta em mais de uma aba consultando ao mesmo tempo.
 - 1.5.0 — OPs em Conferência manual ou Com pendência ficam na lista mesmo depois de sair da GEROP (com a etiqueta
   "Fora da GEROP" e filtro próprio) até serem marcadas Conferido ou desmarcadas; Despesa a Anular lida pelos campos
   reais (valor incluído, cancelado e atual, e os itens do PCO relacionados); dados bancários do pré-doc de cada
