@@ -42,6 +42,7 @@ Guia rápido de cada script: **para que serve**, **o que deixar aberto antes de 
 | [Conferência GEROP](#conferência-gerop) | CG | SIAFI, na transação GEROP | Consulta Optantes (Receita) e SEI |
 | [NPs Pendentes](#nps-pendentes) | NP | SIAFI, na transação CONDH | — |
 | [Apropria Folha de Pagamento](#apropria-folha-de-pagamento) | FP | SIAFI | — |
+| [Tributos Pendentes SECOM](#tributos-pendentes-secom) | TP | SECOMWEB, no memorando → Informar alíquotas | — (arquivo do cadastro no computador) |
 | [Reinf Envio em Lote](#reinf-envio-em-lote) | RE | e-CAC (página inicial) e depois o Reinf Web | Assinador SERPRO |
 
 As duas "PC" não se confundem: a da Prestação de Contas SCDP só aparece no SCDP, e a da Prestação de Contas
@@ -449,6 +450,29 @@ Despesa a Anular pela tabela de correlações e lança o documento FL no SIAFI.
 - Na **Config.**: tabela de correlações, compensações e **centro de custo**. Sem centro de custo, o script pausa no
   Detacustos.
 - Mesma competência lançada de novo pede confirmação. **Continuar o FL…** retoma o próximo registro.
+
+### Tributos Pendentes SECOM
+
+**Para que serve:** na tela de alíquotas de um memorando do SECOMWEB, mostra numa janelinha as subcontratadas que
+ainda faltam marcar os tributos, com o **valor da nota fiscal do fornecedor** lido do PDF anexado e o **município** do
+fornecedor (DF, Salvador, Manaus e Fortaleza em vermelho).
+
+**Abra antes:** o **SECOMWEB**, no memorando, tela **Informar alíquotas**.
+
+**Passo a passo:**
+1. A janelinha **TP** aparece sozinha no **canto inferior esquerdo**. Este script não usa a lingueta da direita, para
+   a lista ficar sempre à vista ao lado da tabela.
+2. Na primeira vez, clique em **📋 Carregar cadastro de fornecedores** no rodapé e escolha o arquivo (.txt, .csv ou
+   .tsv) com as colunas **cnpj** e **municipio** (e **uf**, se houver). Serve o cadastro completo ou só a lista de
+   atenção (CNPJs de DF, Salvador, Manaus e Fortaleza).
+3. Cada pendente mostra o valor lido do PDF e a página (📄 abre o anexo). Clique no nome para ir até a linha.
+4. Marque os tributos na tela. A linha sai da janelinha quando a observação é Isento, quando é Simples de rádio, TV ou
+   revista, ou quando "não cobra alíquota" é marcado. O **✓** tira da lista à mão (**mostrar de novo** desfaz).
+
+**Cuidados:**
+- Notas em imagem (por exemplo, geradas por "Microsoft Print to PDF") não são lidas: abra o anexo pelo 📄.
+- **⚠ agência informa** aparece quando o valor citado na nota da agência é diferente do da nota do fornecedor.
+- **↻** lê o PDF de novo. **▾** recolhe a janelinha.
 
 ### Reinf Envio em Lote
 

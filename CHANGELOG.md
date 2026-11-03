@@ -98,6 +98,14 @@
   depois de 25 de Despesa a Anular, cada um com o centro de custo). Modo teste: preenche o 1º registro e para antes de
   registrar.
 
+## Tributos Pendentes SECOM
+- 1.0.0 — primeira versão DevDu (antes "SECOM - Tributos pendentes", até a 2.7): ícone, marca e atualização automática.
+  Janelinha âmbar (TP) fixa no canto inferior esquerdo, sem a lingueta da direita, para não cobrir a tabela de
+  tributos; versão no rodapé. Na tela de alíquotas do memorando, lista as subcontratadas que faltam marcar, com o valor
+  da nota do fornecedor lido do PDF anexado (soma as notas do mesmo fornecedor) e o município pelo cadastro carregado
+  (DF, Salvador, Manaus e Fortaleza em vermelho). Cadastro, itens dispensados e valores já lidos da versão antiga
+  continuam valendo. Desinstale o antigo no Tampermonkey, senão as duas janelinhas aparecem juntas.
+
 ## Conferência de Hospedagem
 - 1.1.0 — Config. → "Exportar a conferência" salva tudo (processos, faturas, tabelas dos extratos, documentos e
   situações) num arquivo .json, e "Importar conferência" carrega o arquivo de volta para ajustar depois, sem digitar de novo.
