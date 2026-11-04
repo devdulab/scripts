@@ -95,6 +95,22 @@
   pelo botão Retornar do SIAFI, sem pesquisar de novo.
 
 ## Apropria Folha de Pagamento
+- 1.3.0 — auxílio moradia: a tabela mostra quem já foi registrado no FL e o botão lança só os que faltam; "Limpar o
+  controle" apaga esse registro. Se o SIAFI não encontrar um CPF, o script para para você fazer o cadastro e tenta de
+  novo ao clicar em Continuar.
+- 1.2.1 — auxílio moradia: até 50 LDV014 por registro (configurável) e sem passar pelo Detacustos, que esse lançamento
+  não tem.
+- 1.2.0 — aba **Auxílio moradia** (no lugar do "Ressarcimento de cedidos", que estava vazio): base de nomes e CPFs
+  (carregada de um .txt, com inclusão à mão), leitura da relação da rubrica 83086 do SIAPE (PDF, rendimentos e descontos),
+  cruzamento por matrícula/nome com o valor de cada pessoa (rendimentos − descontos) e inclusão de um LDV014 por CPF nos
+  Outros Lançamentos de um FL já registrado (o script pergunta o número do FL e altera o documento pelo CONDH). O LDV014
+  saiu da aba Folha de pagamento.
+- 1.1.1 — Outros Lançamentos: o campo "Normal/Estorno" (obrigatório, vem vazio na PRV002 e na LPA386) é marcado como
+  Normal.
+- 1.1.0 — aba **Outros Lançamentos**: provisões de 13º e férias (PRV001/PRV002, duas contas) e baixa contábil das férias
+  (LPA386) com os valores dos totais dos relatórios A e E, a natureza detalhada preenchida no centro de custo; e o
+  **LDV014** (controle do auxílio-moradia) por CPF, com a lista carregada de um PDF (ou colada) e a conta
+  8.9.9.9.1.07.00. Os Outros Lançamentos são registrados depois da Despesa a Anular, até 40 itens por registro.
 - 1.0.0 — primeira versão publicada. Lingueta vinho (FP). Lê os 5 relatórios DDP do mês (níveis A, E e Todos; EST16 e
   EST35) e a consulta de saldos de empenho, calcula a PCO e a Despesa a Anular pela tabela de correlações (editável na
   Config.), com divisão pelo saldo a liquidar das NEs e compensação da Despesa a Anular; confere os totais com o relatório

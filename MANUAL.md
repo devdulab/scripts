@@ -451,6 +451,18 @@ Despesa a Anular pela tabela de correlações e lança o documento FL no SIAFI.
   Detacustos.
 - Mesma competência lançada de novo pede confirmação. **Continuar o FL…** retoma o próximo registro.
 
+**Auxílio moradia (LDV014)** – depois que a folha foi lançada:
+1. Aba **Auxílio moradia**: carregue uma vez a **base de nomes e CPFs** (.txt, uma pessoa por linha com nome e CPF; a
+   matrícula SIAPE é opcional). Quem faltar pode ser incluído à mão (em "Ver a base / incluir à mão" ou digitando o CPF
+   direto na tabela do cruzamento). A base fica só no seu navegador.
+2. Carregue o **PDF da relação da rubrica 83086 – AUXILIO MORADIA** que vem do SIAPE (rendimentos e descontos).
+3. Confira o cruzamento: totais iguais aos do relatório e todas as pessoas com CPF (valor = rendimentos − descontos).
+4. **Incluir no FL…**: informe o número do FL da folha (ex.: 2026FL000123). O script abre o documento pelo CONDH, altera
+   e inclui um LDV014 por CPF nos Outros Lançamentos (até 50 por registro, sem Detacustos). Em modo teste, para antes de registrar.
+5. Se o SIAFI não encontrar um CPF, o script para: faça o cadastro e clique em **Continuar** (ele tenta de novo). A
+   tabela mostra quem já está no FL (**✔ registrado**); se algo ficou de fora, o botão inclui **só os que faltam**.
+   Terminado o lançamento, **Limpar o controle** apaga esse registro.
+
 ### Tributos Pendentes SECOM
 
 **Para que serve:** na tela de alíquotas de um memorando do SECOMWEB, mostra numa janelinha as subcontratadas que
