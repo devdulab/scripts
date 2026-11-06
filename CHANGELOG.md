@@ -28,6 +28,9 @@
   lateral no SEI e no SCDP, marca e atualização automática.
 
 ## Comparador de Faturas
+- 2.0.1 — leitura da planilha do SCDP corrigida: passageiros que dividem o mesmo localizador (Azul, sem nº de bilhete)
+  são casados cada um com a sua linha, pela PCDP e pelo nome (antes eram somados e davam "repetido"); bilhete com 10
+  dígitos, sem o prefixo da companhia, é reconhecido; remarcação (REMARC) que o SCDP lança na tarifa não dá mais divergência.
 - 2.0.0 — primeira versão DevDu (antes "Comparador de Faturas × SCDP", até a 1.7.0, aberto pelo menu do Tampermonkey): abre no
   SCDP pelo painel padrão (lingueta azul CF) e atualiza sozinho. Agrupamento por empenho só com nota de empenho, SIORG, centro
   de custo e valor; inclusão de uma nota de empenho ou de uma exceção de centro de custo por vez, na Config.; nomes comparados
