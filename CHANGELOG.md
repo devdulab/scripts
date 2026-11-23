@@ -28,6 +28,9 @@
   lateral no SEI e no SCDP, marca e atualização automática.
 
 ## Comparador de Faturas
+- 2.0.2 — casamento com a planilha do SCDP corrigido: bilhete escrito com hífen (235-…), nº do seguro com outros
+  separadores e PCDP com zero a menos agora são reconhecidos; bilhete cobrado junto com o seguinte na fatura (ida e volta)
+  é somado; o relatório aponta bilhete em duplicidade e RAV igual à taxa no SCDP.
 - 2.0.1 — leitura da planilha do SCDP corrigida: passageiros que dividem o mesmo localizador (Azul, sem nº de bilhete)
   são casados cada um com a sua linha, pela PCDP e pelo nome (antes eram somados e davam "repetido"); bilhete com 10
   dígitos, sem o prefixo da companhia, é reconhecido; remarcação (REMARC) que o SCDP lança na tarifa não dá mais divergência.
