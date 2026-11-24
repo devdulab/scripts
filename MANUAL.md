@@ -437,8 +437,10 @@ Despesa a Anular pela tabela de correlações e lança o documento FL no SIAFI.
 
 **Passo a passo:**
 1. Lingueta **FP** → aba **Folha de pagamento**: carregue os 5 PDFs e cole a consulta de empenhos.
-2. **Calcular** e confira os totais com o relatório Todos. Ajuste na tabela o que for preciso (NE, VPD, valor, ✂ para
-   dividir uma linha).
+2. **Calcular** e confira os totais com o relatório Todos. Se não conferir, o painel mostra **onde está a diferença**
+   (a classificação sem correlação na tabela ou com valor diferente) e a **necessidade de reforço** de cada natureza.
+   Ajuste na tabela o que for preciso (NE, VPD, valor, ✂ para dividir uma linha).
+   **📄 Relatório dos lançamentos (PDF)** abre tudo numa página para imprimir ou salvar em PDF e conferir.
 3. Preencha os Dados Básicos (processo, datas) e clique em **Lançar no SIAFI**. Em **modo teste** (padrão), o script
    para antes do 1º registro.
 4. O lançamento vai em registros sucessivos: primeiro toda a PCO (até 40 linhas por registro), depois a Despesa a
@@ -447,6 +449,9 @@ Despesa a Anular pela tabela de correlações e lança o documento FL no SIAFI.
 
 **Cuidados:**
 - Linhas sem NE ou acima do saldo bloqueiam o lançamento: resolva na tabela antes.
+- O cálculo usa o saldo de **todas** as NEs da natureza que estiverem na consulta colada: tire da consulta as NEs que
+  não são da folha.
+- O relatório abre numa janela nova: se o navegador bloquear, permita pop-ups para o SIAFI.
 - Na **Config.**: tabela de correlações, compensações e **centro de custo**. Sem centro de custo, o script pausa no
   Detacustos.
 - Mesma competência lançada de novo pede confirmação. **Continuar o FL…** retoma o próximo registro.

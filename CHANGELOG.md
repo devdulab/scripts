@@ -101,6 +101,11 @@
   pelo botão Retornar do SIAFI, sem pesquisar de novo.
 
 ## Apropria Folha de Pagamento
+- 1.4.0 — **Relatório dos lançamentos** (botão na conferência; imprimir ou salvar em PDF): totais × relatório Todos,
+  **onde está a diferença** (cada classificação do Todos × o que vai ser lançado, apontando a que está sem correlação na
+  tabela ou com valor diferente), **necessidade de reforço de empenho** por natureza (PCO × saldo de todas as NEs da
+  natureza na consulta), lançamentos por situação, saldos por NE e os registros no SIAFI. O painel também mostra a
+  diferença por classificação e o quadro de reforço.
 - 1.3.0 — auxílio moradia: a tabela mostra quem já foi registrado no FL e o botão lança só os que faltam; "Limpar o
   controle" apaga esse registro. Se o SIAFI não encontrar um CPF, o script para para você fazer o cadastro e tenta de
   novo ao clicar em Continuar.
