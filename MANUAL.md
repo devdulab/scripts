@@ -462,6 +462,8 @@ Despesa a Anular pela tabela de correlações e lança o documento FL no SIAFI.
    direto na tabela do cruzamento). A base fica só no seu navegador.
 2. Carregue o **PDF da relação da rubrica 83086 – AUXILIO MORADIA** que vem do SIAPE (rendimentos e descontos).
 3. Confira o cruzamento: totais iguais aos do relatório e todas as pessoas com CPF (valor = rendimentos − descontos).
+   Se o relatório vier sem os totais (ou com total diferente) e você tiver conferido os valores por fora, marque
+   **"Conferi os valores por fora"** para liberar o lançamento (vale só para o PDF carregado; CPF que falta continua bloqueando).
 4. **Incluir no FL…**: informe o número do FL da folha (ex.: 2026FL000123). O script abre o documento pelo CONDH, altera
    e inclui um LDV014 por CPF nos Outros Lançamentos (até 50 por registro, sem Detacustos). Em modo teste, para antes de registrar.
 5. Se o SIAFI não encontrar um CPF, o script para: faça o cadastro e clique em **Continuar** (ele tenta de novo). A

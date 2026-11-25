@@ -101,6 +101,8 @@
   pelo botão Retornar do SIAFI, sem pesquisar de novo.
 
 ## Apropria Folha de Pagamento
+- 1.4.1 — auxílio moradia: quando o relatório vem sem os totais (ou com total diferente da soma), a caixa "Conferi os
+  valores por fora" libera o lançamento; pessoa sem CPF ou com CPF inválido continua bloqueando.
 - 1.4.0 — **Relatório dos lançamentos** (botão na conferência; imprimir ou salvar em PDF): totais × relatório Todos,
   **onde está a diferença** (cada classificação do Todos × o que vai ser lançado, apontando a que está sem correlação na
   tabela ou com valor diferente), **necessidade de reforço de empenho** por natureza (PCO × saldo de todas as NEs da
