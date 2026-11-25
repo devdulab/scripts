@@ -132,6 +132,11 @@
   registrar.
 
 ## Tributos Pendentes SECOM
+- 1.2.0 — a janelinha pode ser arrastada pela faixa do título e fica no lugar escolhido; duplo clique volta ao canto
+  inferior esquerdo.
+- 1.1.0 — a janelinha mostra o nº da nota da agência de cada pendente ("NF agência …"), lido da página da nota.
+- 1.0.1 — os anexos das notas voltam a ser lidos: o pedido da lista de anexos vai como a própria tela do SECOMWEB faz
+  (dava "anexos HTTP 403"); se o SECOMWEB recusar de novo, a janelinha diz o que fazer.
 - 1.0.0 — primeira versão DevDu (antes "SECOM - Tributos pendentes", até a 2.7): ícone, marca e atualização automática.
   Janelinha âmbar (TP) fixa no canto inferior esquerdo, sem a lingueta da direita, para não cobrir a tabela de
   tributos; versão no rodapé. Na tela de alíquotas do memorando, lista as subcontratadas que faltam marcar, com o valor

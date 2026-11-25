@@ -480,11 +480,13 @@ fornecedor (DF, Salvador, Manaus e Fortaleza em vermelho).
 
 **Passo a passo:**
 1. A janelinha **TP** aparece sozinha no **canto inferior esquerdo**. Este script não usa a lingueta da direita, para
-   a lista ficar sempre à vista ao lado da tabela.
+   a lista ficar sempre à vista ao lado da tabela. Para mudar de lugar, **arraste pela faixa azul do título**; o lugar
+   fica guardado. **Duplo clique** na faixa volta ao canto inferior esquerdo.
 2. Na primeira vez, clique em **📋 Carregar cadastro de fornecedores** no rodapé e escolha o arquivo (.txt, .csv ou
    .tsv) com as colunas **cnpj** e **municipio** (e **uf**, se houver). Serve o cadastro completo ou só a lista de
    atenção (CNPJs de DF, Salvador, Manaus e Fortaleza).
-3. Cada pendente mostra o valor lido do PDF e a página (📄 abre o anexo). Clique no nome para ir até a linha.
+3. Cada pendente mostra, ao lado do nome, o **nº da nota da agência** (lido da página da nota) e, embaixo, o valor lido
+   do PDF e a página (📄 abre o anexo). Clique no nome para ir até a linha.
 4. Marque os tributos na tela. A linha sai da janelinha quando a observação é Isento, quando é Simples de rádio, TV ou
    revista, ou quando "não cobra alíquota" é marcado. O **✓** tira da lista à mão (**mostrar de novo** desfaz).
 
