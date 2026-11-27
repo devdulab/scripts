@@ -469,6 +469,8 @@ Despesa a Anular pela tabela de correlações e lança o documento FL no SIAFI.
 5. Se o SIAFI não encontrar um CPF, o script para: faça o cadastro e clique em **Continuar** (ele tenta de novo). A
    tabela mostra quem já está no FL (**✔ registrado**); se algo ficou de fora, o botão inclui **só os que faltam**.
    Terminado o lançamento, **Limpar o controle** apaga esse registro.
+6. **📄 Relatório do auxílio moradia (PDF)**: nome, matrícula, CPF, valor e o FL/NS de cada pessoa, com o processo
+   (campo **Processo** da aba; vazio = o da folha). Tem CPF: é documento interno.
 
 ### Tributos Pendentes SECOM
 
